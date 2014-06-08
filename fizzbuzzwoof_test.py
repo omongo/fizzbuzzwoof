@@ -19,7 +19,7 @@ class TestFizzBuzzWoof(unittest.TestCase):
         actual = FizzBuzzWoof().say(5)
         self.assertEqual(expected, actual)
 
-    def test_7_should_be_Bang(self):
+    def test_7_should_be_Woof(self):
         expected = 'Woof'
         actual = FizzBuzzWoof().say(7)
         self.assertEqual(expected, actual)
@@ -29,17 +29,17 @@ class TestFizzBuzzWoof(unittest.TestCase):
         actual = FizzBuzzWoof().say(15)
         self.assertEqual(expected, actual)
 
-    def test_21_should_be_FizzBang(self):
+    def test_21_should_be_FizzWoof(self):
         expected = 'FizzWoof'
         actual = FizzBuzzWoof().say(21)
         self.assertEqual(expected, actual)
 
-    def test_35_should_be_BuzzBang(self):
+    def test_35_should_be_BuzzWoof(self):
         expected = 'BuzzWoof'
         actual = FizzBuzzWoof().say(35)
         self.assertEqual(expected, actual)
 
-    def test_105_should_be_FizzBuzzWoofBang(self):
+    def test_105_should_be_FizzBuzzWoof(self):
         expected = 'FizzBuzzWoof'
         actual = FizzBuzzWoof().say(105)
         self.assertEqual(expected, actual)
