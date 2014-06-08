@@ -1,5 +1,4 @@
 class FizzBuzzWoof:
-
     def say(self, number):
         return 'Fizz' * (not number % 3) + \
                'Buzz' * (not number % 5) + \
